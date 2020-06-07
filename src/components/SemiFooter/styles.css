@@ -1,0 +1,17 @@
+
+.semi-footer{
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: url('../../assets/images/bg-boost-desktop.svg');
+    background-color:  var(--dark-violet);
+    text-align: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+@media (max-width: 640px){
+    .semi-footer{
+        background-image: url('../../assets//images/bg-boost-mobile.svg');
+    }
+}

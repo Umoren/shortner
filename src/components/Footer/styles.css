@@ -1,0 +1,29 @@
+
+footer{
+    font-size: 14px;
+    vertical-align: middle;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.desktopRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-fluid{
+    width: 98% ;
+}
+
+@media (max-width: 640px){
+    footer{
+        text-align: center;
+        margin: auto;
+    }
+
+    .mobileBlock{
+        display: block;
+    }
+   
+}
