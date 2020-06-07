@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-size: 18px;
-  background: var(--background);
+  background: var(--white);
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,7 +16,7 @@ body {
   --dark-violet: hsl(257, 27%, 26%);
 
   --red: hsl(0, 87%, 67%);
-
+  --white: #ffffff;
   --gray: hsl(0, 0%, 75%);
   --grayish-violet: hsl(257, 7%, 63%);
   --very-dark-blue: hsl(255, 11%, 22%);

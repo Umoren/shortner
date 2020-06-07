@@ -18,7 +18,7 @@ const UrlNavbar = (props) => {
 
   return (
     <div>
-      <Navbar color="white" light expand="md">
+      <Navbar color="white" className="container-fluid" light expand="md">
         <Link className="navbar-brand head-link" to="/"> Shortly </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
