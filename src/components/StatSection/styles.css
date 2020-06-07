@@ -1,0 +1,68 @@
+.adv-stat{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.description{
+    color: var(--grayish-violet);
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 500;
+    text-align: left;
+}
+
+.headerDescription{
+    margin-bottom: 5rem;
+    margin-top: auto;
+}
+
+.title{
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--dark-violet);
+    text-align: left;
+}
+
+.headerTitle {
+    color: var(--very-dark-violet);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.icon{
+    height: auto;
+    width: auto;
+    padding: .75rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -2.5rem;
+    left: 0;
+    right: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: var(--dark-violet);
+}
+
+@media(max-width: 640px) {
+    .icon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .advCard{
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+    }
+}
